@@ -48,6 +48,25 @@ header {
     font-size: 25px;
 
 }
+@media(max-width : 300px) {
+    .right ul {
+        content-visibility: hidden;
+    }
+
+    .search {
+        content-visibility: hidden;
+    }
+    .left img {
+        max-height: 40px;
+        padding: 10px 20px;
+    }
+    .icon ul li {
+        list-style: none;
+        padding: 10px 10px;
+    
+    }
+
+}
 
 @media(max-width : 600px) {
     .right ul {
